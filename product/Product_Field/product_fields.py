@@ -1,22 +1,10 @@
 
 
-# None
-# Order online
-# Buy
-# Learn more
-# Get offer
-
-
-# 1 to 4
 class ProductField(object):
                ##########################################################
-    Title = """Samsung QLED 4K Smart TV Q60B"""
-    Category = "Smart TV"
-    Description = """The All-New Ultra AirSlim Samsung QLED 4K Smart TV is the thinnest Smart TV you'll ever come across. It adds more style to your home with its bezel-less Display and Sharp Edges. Immerse yourself in Deeper Visuals with its Quantum Dot Technology that reproduces 100% True Colors. Also, the Quantum HDR on the HDR10+ Display produces crystal-clear, vivid pictures all day long. More Smart Features, More Excitement! Visit Poorvika Online to Order your Samsung QLED 4K Smart TV Today!"""
-    Image = r"D:\Durai\GMB\product\image\07-09-2022.jpeg"
-    Field = "Buy"
-    Online_Link = "https://bit.ly/3cReeTr"
-
-
-
-
+    Title = """Celebrate New Year with 70%* Off! Own Your Fav Gadgets"""
+    Category = "Christmas & New Year Deals"
+    Description = """This New Year 2023, Prep your Home for a Better Lifestyle with Smart & Latest Gadgets from Poorvika! Pump up your productivity in style. Get upto 70%* Off from our Christmas & New Year Deals. Click on the link to Visit Poorvika Online and Shop with New Year Deals right away!"""
+    Image = r"D:\Durai\GMB\product\image\26-12-2022-1.jpeg"
+    Field = "Get offer"
+    Online_Link = "https://bit.ly/Christmas-New-Year-Deals"

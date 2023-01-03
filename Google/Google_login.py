@@ -3,13 +3,9 @@ import hmac,base64,struct,hashlib,time
 from selenium.webdriver.common.by import By
 
 url = "https://www.google.com/"
-# user_name = "corporatesales@poorvika.in"
-# password = "corporate@3456"
-# user_name = "poorvikacampaign@gmail.com"
-# password = "PVK@Gmail1"
 user_name = "dev@poorvika.in"
 password = "Prdev@1855"
-secret='amtjdiqegq5ekxt36wgul6wthce5pkdw'
+secret='biyaupm6752z6pzyoiv3vvxhtm3m6hvb'
 
 class Google:
     def __init__(self, driver):
@@ -56,13 +52,15 @@ class Google:
         self.driver.implicitly_wait(5)
         self.driver.find_element(By.CLASS_NAME,"gb_7").click()
         self.driver.implicitly_wait(5)
+        time.sleep(3)
         Google.username(self)
-        # time.sleep(30)
+        time.sleep(3)
         Google.user_pass(self)
+        time.sleep(3)
         # Google.Authentication(self)
         Google.Auth(self)
         print("Google My business Login")
-        time.sleep(2)
+        # time.sleep(2)
 
 
 
